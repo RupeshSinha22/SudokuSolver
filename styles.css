@@ -58,7 +58,7 @@
 
 .slider{
     appearance: none;
-    width: 400px;
+    width: 90%;
     height: 2px;
     background-color: gray;
     background-repeat: no-repeat;
