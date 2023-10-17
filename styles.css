@@ -82,4 +82,14 @@
     transition-timing-function: ease;
 }
 
+@media (max-width:360px) {
+    .mainbox {
+        width: 130%;
+    }
+}
 
+@media (min-width: 360){
+    .mainbox{
+        width: fit-content;
+    }
+}
