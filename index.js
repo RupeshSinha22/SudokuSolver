@@ -55,24 +55,42 @@ slider.addEventListener('input',e =>{
 // });
 
 easy.addEventListener('click',async function(){ 
+    easy.style.pointerEvents='none';
+    medium.style.pointerEvents='none';
+    hard.style.pointerEvents='none';
     await colorRemove(); 
     difficult='easy';
     await loadSudoku();
     colorAdd();
+    easy.style.pointerEvents='all';
+    medium.style.pointerEvents='all';
+    hard.style.pointerEvents='all';
 });
 
-medium.addEventListener('click',async function(){ 
+medium.addEventListener('click',async function(){
+    easy.style.pointerEvents='none';
+    medium.style.pointerEvents='none';
+    hard.style.pointerEvents='none';
     await colorRemove();
     difficult='medium';
     await loadSudoku();
     colorAdd();
+    easy.style.pointerEvents='all';
+    medium.style.pointerEvents='all';
+    hard.style.pointerEvents='all';
 });
 
 hard.addEventListener('click',async function(){
+    easy.style.pointerEvents='none';
+    medium.style.pointerEvents='none';
+    hard.style.pointerEvents='none';
     await colorRemove();
     difficult='hard';
     await loadSudoku();
     colorAdd();
+    easy.style.pointerEvents='all';
+    medium.style.pointerEvents='all';
+    hard.style.pointerEvents='all';
 });
 
 async function loadSudoku(){
