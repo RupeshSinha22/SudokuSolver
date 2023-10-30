@@ -4,4 +4,4 @@
 
 <img width="955" alt="image" src="https://github.com/RupeshSinha22/SudokuSolver/assets/119124076/bdbdd3d8-745a-4ec3-9ec6-f3b9d40d2f10">
 
-Live Link : https://rupeshsinha22.github.io/SudokuSolver/
+# Live Link : https://rupeshsinha22.github.io/SudokuSolver/
